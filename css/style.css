@@ -72,3 +72,46 @@ body {
   border-radius: 7px;
   border-style: none;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1px;
+}
+
+.grid-item{
+  padding: 3rem;
+  background-color: var(--color4)
+}
+
+.title{
+  display:inline-block;
+  font-size: 2em;
+  font-weight:500;
+  color: var(--color2);
+}
+.paragraph{
+  font-size: 3em;
+  font-weight:700;
+  color: white;
+}
+.profilepic{
+  display:inline-block;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+  background-color: grey;
+  border: 5px solid black;
+  transform:rotate(-30deg);
+  transform-origin: bottom;
+  transition: 0.5 ease-in-out;
+}
+.profilepic:hover {
+  transform: rotate(0deg);
+}
+.tags{
+  font-size: 1em;
+  color: var(--color2)
+}
