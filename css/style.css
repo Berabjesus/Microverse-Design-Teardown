@@ -273,24 +273,24 @@ body {
 }
 
 .row-3{
-
-
   display:flex;
+  height: auto;
   justify-content: center;
-  align-items: baseline;
+  padding: 50px 0 0 0;
   background-color: var(--color2);
 }
 .row3paragraph {
-  display: inline-block;
   font-size: 2em;
   font-weight: 500;
-  color: var(--color2);
+  color: black;
+  align-self: flex-start;
+  margin: 0;
 }
 
 .row3img {
   display: inline-block;
-  height: 7rem;
-  width: 12rem;
+  height: 13rem;
+  width: 28rem;
   margin-left: 7rem;
   border-radius: 5px;
   background-color: grey;
@@ -302,4 +302,85 @@ body {
 
 .row3img:hover{
   transform: rotate(0deg);
+}
+
+.row-4 {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 150px 0px 0 0;
+  background-color: var(--color2);
+}
+
+.row-4-content {
+  flex: 0 0 48%;
+  height: 200px;
+  display: flex;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 50px;
+}
+
+.row-4-content > .profilepic {
+  flex: 0 0 60px;
+}
+
+.row-4-text-container > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.row-4-text-container > h2 {
+  font-size: 35px;
+}
+
+.row-5{
+  background-color: var(--color5);}
+
+.row5flex{
+  margin: 2rem 10rem 2rem 10rem;
+  height:40vh;
+  display:flex;
+}
+
+.textflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textflex  * {
+  margin: 0;
+}
+
+.row5mainImg{
+  margin-left: 15rem;
+  align-self:flex-end;
+  border: 2px solid black;
+  width: 30vw;
+  height: 40vh;
+  overflow-y:visible;
+  transform: rotate(-30deg);
+  transform-origin:left;
+  transition: 0.4s ease-in-out;
+  background-color: var(--color4);
+}
+
+.row5mainImg:hover{transform:rotate(0);}
+
+
+.row5text1{
+  color:white;
+  font-size:2.5em;
+}
+
+.row5text2{
+  color:white;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.row5text3{
+  color:white;
+  font-size:2em;
 }
