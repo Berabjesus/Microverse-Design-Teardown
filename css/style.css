@@ -384,3 +384,43 @@ body {
   color:white;
   font-size:2em;
 }
+
+.row6{
+  background-color: var(--color2);
+}
+.row6grid{
+  padding:5rem 2rem 5rem 2rem;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.row6gridItem{
+  height: 50vh;
+  border: 1px solid gray;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--color1);
+}
+
+.row6title{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.row6description{
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.row6button{
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
