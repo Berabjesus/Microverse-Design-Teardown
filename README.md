@@ -26,7 +26,7 @@ This project is made to test our understanding of UX and Typology.
 
 - Github: [@KennyUTN](https://github.com/KennyUTN)
 - Twitter: [@Kenny11614766](https://twitter.com/Kenny11614766)
-- Linkedin: [linkedin](hhttps://www.linkedin.com/in/ignacio-asis-b8214b183/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ignacio-asis-b8214b183/)
 
 ## 🤝 Contributing
 
