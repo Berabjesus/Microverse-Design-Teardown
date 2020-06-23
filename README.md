@@ -12,7 +12,7 @@ This project is made to test our understanding of UX and Typology.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SunnySparks/Apple-Website/8923e8c48d20bd8be7b2f3d15c11dfca98c49f36/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Berabjesus/Microverse-Design-Teardown/72e6af261e27b692accc4f2d2e20a646a2a11f2f/index.html)
 
 ## Authors
 
