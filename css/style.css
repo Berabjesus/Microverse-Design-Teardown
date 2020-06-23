@@ -509,6 +509,15 @@ body {
   width: 80%;
 }
 
+.links-ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .links-2-links a {
   margin: 0 10px 0 10px;
   font-size: 20px;
@@ -517,20 +526,12 @@ body {
   width: auto;
 }
 
-.footer-container ul {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-container li {
+.links-ul li {
   width: auto;
   margin: 10px;
 }
 
-.footer-container li > a {
+.links-ul li > a {
   text-decoration: none;
   color: white;
   font-size: 30px;
@@ -538,13 +539,6 @@ body {
 
 .footer-links-2 {
   width: 70%;
-}
-
-.footer-links-2-img {
-  flex: 0 0 120px;
-  width: 20%;
-  height: 120px;
-  background-color: var(--color2);
 }
 
 .links-2-links {
