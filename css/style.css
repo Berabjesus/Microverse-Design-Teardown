@@ -70,7 +70,7 @@ body {
   margin: 0 0 0 30px;
 }
 
-.nav-search>input {
+.nav-search > input {
   height: 50px;
   width: 80%;
   border-radius: 7px;
@@ -118,8 +118,6 @@ body {
   border: 1px solid white;
 }
 
-
-
 .paragraph {
   font-size: 3em;
   font-weight: 700;
@@ -151,7 +149,7 @@ body {
 
 .tags {
   font-size: 1em;
-  color: var(--color2)
+  color: var(--color2);
 }
 
 .row-1-grid {
@@ -304,7 +302,6 @@ body {
   height: 85vh;
   border: 2px solid black;
   background-color: var(--color3);
-
 }
 
 .row-3 {
@@ -357,16 +354,16 @@ body {
   padding: 0 0 0 50px;
 }
 
-.row-4-content>.profilepic {
+.row-4-content > .profilepic {
   flex: 0 0 60px;
 }
 
-.row-4-text-container>a {
+.row-4-text-container > a {
   text-decoration: none;
   color: gray;
 }
 
-.row-4-text-container>h2 {
+.row-4-text-container > h2 {
   font-size: 35px;
 }
 
@@ -378,7 +375,6 @@ body {
   margin: 2rem 10rem 2rem 10rem;
   height: calc(auto + 50px);
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .textflex {
@@ -408,7 +404,6 @@ body {
   transform: rotate(0);
 }
 
-
 .row5text1 {
   color: white;
   font-size: 2.5em;
@@ -433,12 +428,10 @@ body {
   padding: 5rem 2rem 0 2rem;
   display: grid;
   grid-template: repeat(3, auto) / repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-gap: 2rem;
 }
 
 .row6gridItem {
-  /* height: 70vh; */
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -451,7 +444,6 @@ body {
   font-size: 3em;
   font-weight: 700;
   text-align: left;
-
 }
 
 .row6description {
@@ -495,7 +487,6 @@ body {
 .row-7-article {
   font-size: 20px;
   width: 80%;
-
 }
 
 .row-7-article input {
@@ -517,6 +508,14 @@ body {
   width: 80%;
 }
 
+.links-2-links a {
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  width: auto;
+}
+
 .footer-container ul {
   margin: 0;
   padding: 0;
@@ -530,7 +529,7 @@ body {
   margin: 10px;
 }
 
-.footer-container li>a {
+.footer-container li > a {
   text-decoration: none;
   color: white;
   font-size: 30px;
@@ -538,7 +537,6 @@ body {
 
 .footer-links-2 {
   width: 70%;
-  /* justify-content: space-between; */
 }
 
 .footer-links-2-img {
@@ -554,12 +552,4 @@ body {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-.links-2-links a {
-  margin: 0 10px 0 10px;
-  font-size: 20px;
-  text-decoration: underline;
-  color: white;
-  width: auto;
 }
