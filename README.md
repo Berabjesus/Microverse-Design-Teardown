@@ -12,7 +12,7 @@ This project is made to test our understanding of UX and Typology.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Berabjesus/Microverse-Design-Teardown/6820b769260fc57d720eaa54ad584de7ba86e638/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Berabjesus/Microverse-Design-Teardown/cb710be85c8c0ebe90c7f6ae60a7df9853523d64/index.html)
 
 ## Authors
 
