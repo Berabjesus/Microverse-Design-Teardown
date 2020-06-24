@@ -1,4 +1,4 @@
-# Apple-Website
+# Desgin Teardown
 This project's purpose is to create a design teardown of https://www.smashingmagazine.com/
 
 ![screenshot](media/screenshot.JPG)
